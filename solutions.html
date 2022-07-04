@@ -68,7 +68,7 @@
         <div class="col-md-6">
 
           <p class="promo-title">PAST SOLUTIONS</p>
-          <p>for helping the hearing impaired navigate their surroundings.</b></p>
+          <p>for audio detection/classification.</p>
          
     
         </div>
@@ -87,18 +87,17 @@
      
       <div class="container">
           
-        <h1 class="title text-center">TYPES OF HEARING AIDS</h1>
+        <h1 class="title text-center"> HEARING AIDS</h1>
       
         <div class="row">
           
           <div class="col-md-6 about-us">
-            <p class="about-title">In-the-canal (ITC) aids and completely-in-the-canal (CIC) aids </p>
+            <p class="about-title">In-the-canal /completely-in-the-canal aids </p>
               <ul>
-                <li>Contained in tiny cases that fit partly or completely into the ear canal. 
+                <li>Contained in tiny cases that fit partly/completely into the ear canal. 
                 </li>
-              <li>Smallest hearing aids available and offer cosmetic and some listening advantages. 
-                </li>
-               <li>But their small size may make them difficult to handle and adjust for some people.
+             
+               <li>Their small size may make them difficult to handle/adjust.
                 </li>
                 
               
@@ -124,26 +123,25 @@
           <div class="col-md-6 about-us">
             <p class="about-title">Analog Hearing Aids</p>
               <ul>
-                <li>Work by increasing the volume of  sound waves, amplifying all sounds including speech and background noise. </li>
-                <li>This means that if the hearing impaired wants to hear background noise only, they will not be able to hear them clearly as speech and other noises will also be amplified and muffled in between.</li>
-                  <li>Usually are more affordable than digital hearing aids
-</li>
-                <li>Sound filters on them are limited or non-existent so users are forced to hear every surrounding sound, even ones that are not important such as chirping sounds </li>
-                <li>
-Its volume must be specifically adjusted because it can cause screeching sounds </li>
+                <li>Increases volume of speech AND background noise. Its sound filters are limited so EVERY sound is heard. </li>
+                <li> Background noises will not be heard clearly as speech/other noises will be interfering.</li>
+                  
+              
+               
               </ul>
               
           </div>
            <div class="col-md-6 about-us">
             <p class="about-title">Digital Hearing Aids</p>
               <ul>
-                <li>Convert outside sound waves into digital signals and produce a duplication of it.</li> <li>Computer chips in digital hearing aids analyze speech and environmental sounds. Allow for more complex processing of sound during amplification. May improve their performance such as reducing background noise. </li>
-                <li>However, reducing background noise has the opposite intention if hearing impaired users want to hear background sounds more clearly, such as sirens.</li>
-                <li> Currently, most people who seek hearing help are offered only digital technology hearing aids.</li>
-          <li>   Contain directional microphones and  algorithms to only detect human voices and identify background sounds. Can reduce irrelevant noise.</li>   
+                <li>Converts sound waves into digital signals and produces a duplication.</li> 
+                 <li>   Uses directional microphones to selectively detect voices and background sounds. May reduce background noise. </li>
+                <li>Reducing background noise has the opposite intention if one wants to hear background sounds more clearly.</li>
+               
+           
                
                 <li>
-                  Due to their unique features, digital ones are more expensive than analog hearing aids.
+                  Due to their unique features, digital ones are more expensive than analog.
                 </li>
               
               </ul>
@@ -164,15 +162,15 @@ Its volume must be specifically adjusted because it can cause screeching sounds 
             
           </div>
            <div class="col-md-6 about-us">
-            <p class="about-title">Cons of Many Hearing Aids</p>
+            <p class="about-title">Cons of Hearing Aids</p>
               <ul>
-                <li>High quality hearing aids can cost between $6,000 and $8,000, making them virtually inaccessible to the low-income hearing impaired community.</li>
+                <li>Can cost up to $8,000, making them inaccessible to low-income users.</li>
                
                 <li>
-                  They are usually designed to magnify human voices, not detect specific background noises, and they amplify and reduce both background noise and human speech, making it difficult to clearly hear each separately.
+                  Designed to magnify human voices, not background noises, and they amplify/reduce background noise and speech at the same time.
                 </li>
                 <li>
-                   Another limitation of hearing aids is that they are frequently exposed to ear wax, body oils, and moisture due to being worn for thousands of hours annually. Specifically, ear wax can block the sound outlet of a hearing aid, and cleaning it frequently can be inconvenient, and the microphone part can also become damaged by moisture. Further, because a hearing aid is a physical object, its performance will deteriorate over time no matter how frequently a user cleans it or takes care of it.
+                   Ear wax can block sound outlet and microphone can become damaged by moisture. Because a hearing aid is a physical object, its performance will always deteriorate.
                 </li>
               
               </ul>
@@ -211,24 +209,23 @@ Its volume must be specifically adjusted because it can cause screeching sounds 
         <div class="row">
           
           <div class="col-md-6 about-us">
-            <p class="about-title">Pure CNN (Convolutional Neural Network) Models
+            <p class="about-title">CNN (Convolutional Neural Network) Models
 </p>
               <ul>
-                <li>CNNs contain a kernel that scans over each portion of audio data and extracts important specific features for classifying and identifying the specific sound category correctly </li>
+                <li>Contain a kernel that scans portions of audio and extracts features for identifying a specific sound correctly. </li>
                 <li>
-Only extracts localized features within the kernel in audio file - need to scan through entire audio file to determine if a feature is important and doesn’t record its location of features in the audio, which can reduce the accuracy of audio identification. 
+Doesn’t record location of audio features, which can reduce accuracy of audio identification. 
 </li>
-                <li>One particular CNN model for audio classification, SB-CNN, developed in 2016-17, reached 79% accuracy. google net big salamon one inaccurate
-                </li>
-              <li>In 2018, another proposed CNN, when trained on an audio dataset (UrbanSound8K) with augmentations and mixup techniques added does increase classification accuracy a bit (83.7%).
+                
+              <li>In 2018, one proposed CNN, when trained on an audio dataset with augmentations+mixup techniques, increases classification accuracy to 83.7%.
                 <ul>
-                  <li>Augmentations - means adding more variety to the dataset such as by changing the pitch/length of certain audio files. Can help a machine learning model learn edge cases and patterns of sounds heard better.</li>
-                  <li>Mixup - two audio files in the dataset are randomly combined as a new training sample, but because UrbanSound8K labels every file as belonging to a  single category, if the two chosen files are from different sound  categories, the resulting sound will become unusable as it will  not be indicative of any of the designated sound categories, thus confusing the model. 
+                  <li>Augmentations - add more variety to the dataset by changing the pitch/length of audio files. Can help a machine learning model learn edge cases and patterns of sounds better.</li>
+                  <li>Mixup - two audio files in the dataset randomly combined as a new training sample. If the two files are from different sound  categories, the resulting sound will become unusable and jumbled/messed up. 
 </li>
                   
                 </ul>
               </li>
-                <li>In 2020, a proposed Ensemble CNN using the already-made ResNet model reached 87.35% accuracy. However, the ResNet model contains over 11 million parameters, making this complex and bulky model unable to be easily deployed into a small mobile app. Therefore, it is not fit for consumer use. </li>
+                <li>In 2020, a proposed Ensemble CNN using the already-made ResNet model reached 87.35% accuracy. However, ResNet contains over 11 million parameters, making this bulky model unable to be deployed into a small mobile app for consumer use.  </li>
               </ul>
                
             
@@ -249,25 +246,25 @@ Only extracts localized features within the kernel in audio file - need to scan 
           
            
           <div class="col-md-6 about-us">
-            <p class="about-title">Pure Transformer-based Algorithms
+            <p class="about-title"> Transformer-based Algorithms
                      </p>
               <ul>
-                <li>Enhances important parts of audio, records feature locations, and establishes long range relationships between input data, making the model understand each audio category’s distinctive features</li>
+                <li>Establishes long range relationships between input data, making the model understand each audio category’s distinctive features.</li>
                 <li>
-Transformer models require expensive computation and long epochs to train, especially when using large training datasets, which will take up a lot of RAM/memory on one's device. Will cost extra to purchase more GPUs to train the Transformer faster.
+Require expensive computation and long epochs to train, which will take up a lot of RAM/memory on one's device. Will cost extra to purchase more GPUs to train model faster.
 
 
 
 
 </li>
-                <li>In 2021, the AudioCLIP Transformer-based model was proposed, which achieved 90.07% accuracy on the UrbanSound8K audio dataset. However, it also is combined with the ESResNeXt model, which contains 30 million parameters. Therefore, again, it is not fit to deploy to a mobile app for consumer use.</li>
+                <li>In 2021, the AudioCLIP model was proposed, which achieved 90.07% accuracy on an audio dataset. However, it also is combined with the ESResNeXt model, which contains 30 million parameters, too big to deploy.</li>
               </ul>
                <p class="about-title">Cons of Many Custom Machine Learning Algorithms
                      </p>
              <ul>
-                <li>  Too large (too many parameters) to be able to deploy into a mobile app for use </li>
-               <li>  Can have a high overhead cost (due to purchasing more GPUs to run the model) </li>
-                <li>  Requires more time to develop and deploy (takes more steps to deploy a foreign custom model into a mobile app) </li>
+                <li>  Too large to be deployed </li>
+               <li>  High overhead costs (due to purchasing more GPUs to run the model faster) </li>
+                <li>  Requires more time to develop and deploy ( more steps to deploy outside custom model into app) </li>
                             </ul>
            
           </div>
